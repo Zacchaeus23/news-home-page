@@ -1,12 +1,12 @@
 {
-  "homepage": "https://Zacchaeus23.github.io//News-Homepage-main",
   "name": "news-home-page",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://Zacchaeus23.github.io/news-home-page",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
